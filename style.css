@@ -29,7 +29,21 @@ h1 {
   align-items: center;
   height: 100%;
 }
-input, button {
+
+.date {
+  font-size: 2.5em;
+  margin: 25px;
+  color: #422424;
+  border-radius: 5px;
+  background-color: #eaeaea;
+}
+
+.date:hover {
+  background-color: #a8a8a8;
+  transition: all 0.3s ease;
+}
+
+button {
   padding: 15px;
   margin: 10px;
   border: 1px solid #666666;
